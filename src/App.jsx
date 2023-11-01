@@ -23,7 +23,7 @@ function App() {
     <div>
       <p>Hello</p>
 
-      <MovieList movies={movies} headingText="Movie Listt"/>
+      <MovieList movies={movies} headingText="Movie List Here"/>
     </div>
   )
 }
