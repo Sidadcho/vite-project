@@ -2,6 +2,7 @@
 import './App.css'
 import MovieList from './components/movieList'
 import Timer from './components/Timers'
+import Counter from './components/Counters'
 
 const movies = [
   {
@@ -24,6 +25,7 @@ function App() {
     <div>
       <p>Hello</p>
       <Timer/>
+      <Counter/>
       <MovieList movies={movies} headingText="Movie List!!!"/>
     </div>
   )
