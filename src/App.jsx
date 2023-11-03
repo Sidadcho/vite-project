@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import './App.css'
 import MovieList from './components/movieList'
+import Timer from './components/timer'
 
 const movies = [
   {
@@ -22,7 +23,7 @@ function App() {
   return (
     <div>
       <p>Hello</p>
-
+      <Timer/>
       <MovieList movies={movies} headingText="Movie List!!!"/>
     </div>
   )
