@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import './App.css'
 import MovieList from './components/movieList'
-import Timer from './components/timer'
+import Timer from './components/Timers'
 
 const movies = [
   {

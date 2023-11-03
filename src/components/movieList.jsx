@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Movies from "./movies";
+import Movies from "./Movies";
 
 export default function MovieList(props) {
     return (
