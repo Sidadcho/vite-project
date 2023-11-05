@@ -1,3 +1,12 @@
-1.Lists and keys:
+1.LISTS:
 
--we can use map() to build a collection of items and use them in jsx using {}
+-we can use map() to build a collection of items and use them in jsx using {}.
+
+2.KEYS:
+
+-when we generate items using map or if or something like that, react gets lost so 
+we have to generate uniqe keys for them.
+keys can be a combination of the values, or in most cases we will have a back-end
+and the key will be that ID. check Mapped.jsx
+
+
