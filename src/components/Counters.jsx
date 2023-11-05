@@ -17,7 +17,7 @@ export default function Counter(props) {
                 <h3>
                     Count can't be negative!
                 </h3>
-                <button onClick={() => setCount(count + 2)}>+</button>
+                <button onClick={() => setCount(count + 1)}>+</button>
             </div>
         )
     }

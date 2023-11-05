@@ -3,21 +3,23 @@ import './App.css'
 import MovieList from './components/movieList'
 import Timer from './components/Timers'
 import Counter from './components/Counters'
+import MappedMovies from './components/Mapped'
 
 const movies = [
   {
     title: 'The matrix',
-    description: 'Desc here'
+    description: 'Matrixxxxxx'
   },
   {
     title: 'Superman',
-    description: 'Desc here'
+    description: 'Man of steel'
   },
   {
     title: 'The dark knight rises',
-    description: 'Desc here'
+    description: 'BATMANNNN'
   }
 ]
+
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
       <Timer/>
       <Counter/>
       <MovieList movies={movies} headingText="Movie List!!!"/>
+      <MappedMovies items={movies}/>
     </div>
   )
 }
