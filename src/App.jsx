@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-import './App.css'
 import MovieList from './components/movieList'
 import Timer from './components/Timers'
 import Counter from './components/Counters'

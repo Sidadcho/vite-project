@@ -1,11 +1,11 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export default function Counter(props) {
 
     const [count, setCount] = useState(0)
 
     const negativeCount = () => {
-        setCount(count - 1)
+        setCount(oldState => oldState -1)
     }
 
 

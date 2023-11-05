@@ -1,12 +1,54 @@
 1.LISTS:
 
--we can use map() to build a collection of items and use them in jsx using {}.
+    -we can use map() to build a collection of items and use them in jsx using {}.
 
 2.KEYS:
 
--when we generate items using map or if or something like that, react gets lost so 
+    -when we generate items using map or if or something like that, react gets lost so 
 we have to generate uniqe keys for them.
 keys can be a combination of the values, or in most cases we will have a back-end
 and the key will be that ID. check Mapped.jsx
 
+3.COMPONENT LIFE CYCLE:
+
+    -has 3 life cycles:
+Mounting- purvi put go slagame v durvoto - slychva se 1 put
+Updating- promenqme go - slychva se 0 ili poveche puti
+Unmounting- mahame ot durvoto - slychva se 1 put
+
+-svurzano e s useEffect hook
+
+3. EFFECT HOOK:
+
+    -most likel perfor: data fetching, subscriptions or manually change the dom
+-operations like these are called SIDE EFFECTS
+-they can affet other components and cant be done during the rendering
+    
+    -useEffect hook adds the ability to perform side effects from a function component
+
+    -useEffect hook serves the samne purpose as:
+componentDidMount
+componentDidUpdate
+componentWillUnmount
+
+all in one
+
+    -useEffect se predpolaga da se izpolzva s dependaniceArray :
+
+useEffect(() => {
+
+}, [] );
+
+shte sledi neshtata v spisuka i toi shte se izpulni samo kogato ima promeni v
+arraya koito sledi
+
+
+4. CSS MODULES:
+
+    -Edin ot stundartno prietiq nachin e da se izpolzva standartnite css moduli
+scopea mu e samo za dadeniq komponent
+imeto na filea trqbva da se kazva [name].module.css
+chesto se kazvat kakto komponenta
+importva se taka:
+import styles from './App.module.css'
 

@@ -1,7 +1,7 @@
 export default function MappedMovies(props) {
 
     let items = props.items.map((item) =><li key={`${item.title}-${item.description}`}> {item.title} - {item.description}</li>)
-    console.log(items);
+
     return (
         <ul>
             {items}
