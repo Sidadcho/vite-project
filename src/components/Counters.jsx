@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react"
+import styles from "../App.module.css"
+
+
 
 export default function Counter(props) {
 
@@ -17,7 +20,7 @@ export default function Counter(props) {
                 <h3>
                     Count can't be negative!
                 </h3>
-                <button onClick={() => setCount(count + 1)}>+</button>
+                <button  onClick={() => setCount(count + 1)}>+</button>
             </div>
         )
     }
@@ -56,7 +59,7 @@ export default function Counter(props) {
             {/* ... */}
 
             <p>{count}</p>
-            <button onClick={() => setCount(count + 1)}>+</button>
+            <button className={styles.addBtn} onClick={() => setCount(count + 1)}>+</button>
             <button onClick={negativeCount}>-</button>
 
         </div>

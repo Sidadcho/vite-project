@@ -52,3 +52,6 @@ chesto se kazvat kakto komponenta
 importva se taka:
 import styles from './App.module.css'
 
+
+5. FETCH: 
+-check StarWars.jsx

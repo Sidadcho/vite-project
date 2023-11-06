@@ -1,0 +1,12 @@
+.addBtn{
+    color: white;
+    background-color: limegreen;
+    border-radius: 50px;
+    width: 50px;
+    border: 2px solid green;
+    
+}
+
+.listItems{
+    background-color: red;
+}
