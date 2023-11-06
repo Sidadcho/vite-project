@@ -3,6 +3,8 @@ import MovieList from './components/movieList'
 import Timer from './components/Timers'
 import Counter from './components/Counters'
 import MappedMovies from './components/Mapped'
+import StarWars from './components/StarWars'
+
 
 const movies = [
   {
@@ -29,6 +31,7 @@ function App() {
       <Counter/>
       <MovieList movies={movies} headingText="Movie List!!!"/>
       <MappedMovies items={movies}/>
+      <StarWars/>
     </div>
   )
 }
