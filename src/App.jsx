@@ -32,6 +32,7 @@ function App() {
       <MovieList movies={movies} headingText="Movie List!!!"/>
       <MappedMovies items={movies}/>
       <StarWars/>
+      
     </div>
   )
 }

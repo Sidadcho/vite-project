@@ -55,3 +55,6 @@ import styles from './App.module.css'
 
 5. FETCH: 
 -check StarWars.jsx
+    -It needs to be in useEffect()
+    -It has to be with the promise syntax, using fetch inside and not the async syntax
+    
